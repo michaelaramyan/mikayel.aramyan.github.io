@@ -39,6 +39,24 @@ jekyll -v.
 
 Finish.
 
+# Creating a Site | Jekyll - Static Site Generator
+Open text editor and cmd. Navigate to folder to save. 
+Run >jekyll new nameofsite.
+Move to new directory.
+Run >bundle exec jektll serve 
+This command will start website on our local computer.
+_posts will be the main folder to use.
+_site is folder for all generated file output (finished product)
+_cinfig.yml (is settings)
+Gamefile is important file for spesifieing some plugins.
+about.md - can be modifie  
+index.md - can be modifie 
+
+
+ 
+
+
+
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
