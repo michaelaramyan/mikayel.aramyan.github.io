@@ -24,6 +24,21 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
+
+# Starting Jekyll instalaltion
+First we need to download RubyInstaller for windows (if your using windows). I have installed Ruby 2.4.2-2(x64) 
+(latest version you need is 2.1 version).
+Run .exe , finish. Run 1, 2, 3 options in order.
+Open cmd check 
+ruby -v and  gem -v.
+Now we are ready to install Jekyll.
+Run >gem install jekyll bundler 
+
+Check if it installed
+jekyll -v. 
+
+Finish.
+
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
