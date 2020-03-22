@@ -52,9 +52,55 @@ Gamefile is important file for spesifieing some plugins.
 about.md - can be modifie  
 index.md - can be modifie 
 
+# Front Matter | Jekyll - Static Site Generator
+Open blog post in _posts
+There you will see front mather in (--- layout:titel...---).
+Frontmether is writen on 2 laug. YAML JSON.
+You define custom frontmather variables.
+For example 
+author: "Mike"
+You can access new frontmather varibles from HTML.
 
  
+ 
+# Writing Posts | Jekyll - Static Site Generator.
+Each blog requiers data-title-.
+Crate new file EX: 2017-09-22-my-first-blog.md(markdown file).
+First include Front mather.
+---
+layout: "post"
+title: "This is new titile"
+data: do not change page data
 
+---
+You can also crate directorys in +posts to manege you blog posts.
+Orgnize your blogs in directorys.
+
+# Working With Drafts | Jekyll - Static Site Generator
+
+You can crate draft file by crateing _drafts folder in the main directory.
+You can include front mather.
+New markdown file in drafts will not shown in website.
+if you run 
+
+jekyll serve --draft
+
+it will show the draft file on website. The date will be current data 
+when you run the command.
+
+# Creating Pages | Jekyll - Static Site Generator
+
+There is about .md file which can be used, but also you can create 
+your own page like about.md for example donation.md in main firectory
+add YAML front matere
+---
+layout: "page"
+title: name 
+---
+you can access 
+http://127.0.0.1:4000/donation.md
+
+# Permalinks | Jekyll - Static Site Generator
 
 
 ```
