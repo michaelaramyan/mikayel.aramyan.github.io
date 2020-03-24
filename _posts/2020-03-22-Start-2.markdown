@@ -1,7 +1,8 @@
 ---
-title: /Start
 layout: post
-permalink: /
+title:  "Try out post"
+date:   2020-03-25 01:11:00 +0100
+categories:
 ---
 
 # Lorem ipsum
