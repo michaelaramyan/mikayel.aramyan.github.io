@@ -1,10 +1,11 @@
 # Example Site settings
 
 google_analytics: UA-NNNNNNNN-N
-
+title: "Mikaye Aramyan"
 header_pages:
   - index.md
   - about.md
+  - projects.md
 
 footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
